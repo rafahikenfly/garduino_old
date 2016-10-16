@@ -1,10 +1,10 @@
 <?php
 
 	function Connection(){
-		$server="garduino.mysql.uhserver.com";
-		$user="garduinobeta";
-		$pass="teste135@";
-		$db="garduino";
+		$server="YOURSERVER";
+		$user="YOURUSER";
+		$pass="YOURPASSWORD";
+		$db="YOURDATABASE";
 	   	
 		$connection = mysql_connect($server, $user, $pass);
 
